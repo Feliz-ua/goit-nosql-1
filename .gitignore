@@ -27,6 +27,7 @@ htmlcov/
 # Файли конфігурації середовища (dotenv)
 .env
 .env.*
+!.env.example
 
 # Файли та папки IDE/редакторів
 .vscode/
