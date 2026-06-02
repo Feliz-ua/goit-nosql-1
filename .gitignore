@@ -1,0 +1,49 @@
+# Скомпільований байт-код та кеш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+venv/
+env/
+.venv/
+ENV/
+
+# Розподіл / пакування
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Логи інсталяції
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Тести та звіти покриття
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Файли конфігурації середовища (dotenv)
+.env
+.env.*
+
+# Файли та папки IDE/редакторів
+.vscode/
+.idea/
+
+# Пакети та журнали Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Набір даних та великі файли
+dataset.csv
+
+# Файли, створені операційною системою
+.DS_Store
+Thumbs.db
+
+# Загальні журнали
+*.log
